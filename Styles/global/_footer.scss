@@ -1,0 +1,56 @@
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    .navbar {
+        padding-left: 5%;
+        ul{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+            li {
+                list-style: none;
+                line-height: 200%;
+
+                a {
+                    text-decoration: none;
+                    color: $thirdcolor;
+                } 
+
+                a:hover {
+                    opacity: 75%;
+                } 
+            }
+        }    
+    }
+
+    #footLogo {
+        font-size: 3vw;
+    }
+
+    .navbar2 {
+        padding-right: 5%;
+        ul{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            justify-content: center;
+            li {
+                list-style: none;
+                line-height: 200%;
+
+                a {
+                    text-decoration: none;
+                    color: $thirdcolor;
+                } 
+
+                a:hover {
+                    opacity: 75%;
+                } 
+            }
+        }    
+    }
+}

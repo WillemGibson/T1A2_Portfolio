@@ -1,0 +1,13 @@
+.abSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+    #sec1, #sec2, #sec3 {
+        height: 500px;
+        width: 75%;
+    }
+}

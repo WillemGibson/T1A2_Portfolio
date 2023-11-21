@@ -1,38 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Willem Gibson</title>
-
-    <link rel="stylesheet" href="./Styles/index.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans" rel="stylesheet">
-</head>
-<body>
-    <header>
-        <div class="logo">
-            <h1 id="title">Willem Gibson</h1>
-        </div>
-        <nav class="navbar">
+   <head>
+      <meta charset="UTF-8">
+      <meta content="width=device-width, initial-scale=1" name="viewport" />
+      <title>Willem Gibson</title>
+      <link rel="stylesheet" href="./Styles/index.css">
+      <link href="https://fonts.googleapis.com/css2?family=Lato" rel="stylesheet">
+   </head>
+   <body>
+      <header>
+         <section class="logo">
+            <h1 id="title"><a href="./index.html">Willem Gibson</a></h1>
+         </section>
+         <nav class="navbar">
             <ul>
-                <li><a href="./pages/about.html">About Me</a></li>
-                <li><a href="./pages/work.html">Work</a></li>
-                <li><a href="./pages/blog.html">Blog</a></li>
-                <li><a href="./pages/contact.html">Contact Me</a></li>
-              </ul>
-        </nav>
-    </header>
-    <main>
-        <div class="banner">
-            <img id="banPhoto" src="resources/images/headshot.jpeg" alt="Photo of me">
-            <div class="banText">
+               <li><a href="./pages/about.html">About Me</a></li>
+               <li><a href="./pages/work.html">Work</a></li>
+               <li><a href="./pages/blog.html">Blog</a></li>
+               <li><a href="./pages/contact.html">Contact Me</a></li>
+            </ul>
+         </nav>
+      </header>
+      <main>
+         <div class="banner">
+            <img id="banPhoto" src="./resources/images/image.jpg" alt="Photo">
+            <section class="banText">
                 <h1 id="banHeading">Making pixels look pretty,</h1>
                 <h2 id="banSubHeading">Since 2018.</h2>
+                <a id="banBtn" href="./resources/" download="proposed_file_name">Download CV</a>
+            </section>
+         </div>
+         <div class="about">
+            <section class="abText">
+               <h1 class="abHeading">Willem Gibson</h1>
+               <h2 class="abSubHeading">"Web Developer/Graphic Designer"</h2>
+               <p class="abParagraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum cumque rerum qui possimus, iure mollitia! Accusamus atque odio beatae dignissimos ad quaerat quae enim minus cumque. Omnis necessitatibus atque officia? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, perspiciatis quod? Error minus architecto cupiditate in odio dignissimos nam quia. Minus, autem tempore praesentium eveniet culpa sed atque deserunt ducimus. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio aspernatur doloremque nobis porro, vel architecto cum illum possimus tenetur doloribus! Repellat saepe rem odit et. Quo sapiente nisi ipsum facere. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel maxime, deleniti accusamus doloribus beatae ipsam quas officia enim delectus velit eos fugiat illo voluptates reiciendis nesciunt facere eligendi consectetur impedit.</p>
+            </section>
+            <img class="abImage" src="./resources/images/image.jpg" alt="Photo">
+         </div>
+         <div class="testimonials">
+            <div class="companyLogos primary">
+               <img class="companyName" src="./resources/images/logo-placeholder.png" alt="Company Name">
+               <img class="companyName" src="./resources/images/logo-placeholder.png" alt="Company Name">
+               <img class="companyName" src="./resources/images/logo-placeholder.png" alt="Company Name">
+               <img class="companyName" src="./resources/images/logo-placeholder.png" alt="Company Name">
+               <img class="companyName" src="./resources/images/logo-placeholder.png" alt="Company Name">
             </div>
-        </div>
-    </main>
-    <footer></footer>
-</body>
+            <div class="companyLogos secondary">
+               <img class="companyName" src="./resources/images/logo-placeholder.png" alt="Company Name">
+               <img class="companyName" src="./resources/images/logo-placeholder.png" alt="Company Name">
+               <img class="companyName" src="./resources/images/logo-placeholder.png" alt="Company Name">
+               <img class="companyName" src="./resources/images/logo-placeholder.png" alt="Company Name">
+               <img class="companyName" src="./resources/images/logo-placeholder.png" alt="Company Name">
+            </div>
+         </div>
+         <section class="skills">
+            <h1 class="skHeading">Skills</h1>
+            <div class="container">
+               <p class="skLabel">HTML/CSS</p>
+               <div class="bar advanced" data-skill="ㅤ"></div>
+               <p class="skPercentage">80%</p>
+               <p class="skLabel">JavaScript</p>
+               <div class="bar back intermediate" data-skill="ㅤ"></div>
+               <p class="skPercentage">50%</p>
+               <p class="skLabel">Python</p>
+               <div class="bar back intermediate" data-skill="ㅤ"></div>
+               <p class="skPercentage">50%</p>
+            </div>
+         </section>
+         <section class="contact">
+            <h1 id="contHeading">Get in your with me:</h1>
+            <form action="mailto:willemjackgibson@gmail.com" method="POST" enctype="text/plain" name="EmailForm">
+               <label for="name">Name:</label>
+               <input type="text" id="name" name="name">
+               <label for="ContactComment">Message:</label>
+               <textarea id="ContactComment"></textarea>
+               <input id="submit" type="submit" value="Send">
+            </form>
+         </section>
+      </main>
+      <footer>
+         <nav class="navbar">
+            <ul>
+               <li><a href="./pages/about.html">About Me</a></li>
+               <li><a href="./pages/work.html">Work</a></li>
+               <li><a href="./pages/blog.html">Blog</a></li>
+               <li><a href="./pages/contact.html">Contact Me</a></li>
+            </ul>
+         </nav>
+         <h1 id="footLogo">W.G.</h1>
+         <nav class="navbar2">
+            <ul>
+               <li><a href="./pages/about.html">About Me</a></li>
+               <li><a href="./pages/work.html">Work</a></li>
+               <li><a href="./pages/blog.html">Blog</a></li>
+               <li><a href="./pages/contact.html">Contact Me</a></li>
+            </ul>
+         </nav>
+      </footer>
+   </body>
 </html>

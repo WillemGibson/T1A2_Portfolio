@@ -1,0 +1,273 @@
+body {
+    font-family: 'Lato', sans-serif;
+    color: $thirdcolor;
+    padding: 0%;
+    margin: 0%;
+    
+    main {
+        .banner {
+            display: flex;
+            flex-direction: row;
+
+            #banPhoto {
+                width: 100%;
+                border-bottom-right-radius: 75%; 
+                border-bottom-left-radius: 5%;
+                border-top-right-radius: 5%;
+                border-top-left-radius: 5%;
+            }
+
+            .banText {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-end;
+                padding-right: 5%;
+                
+                #banHeading {
+                    font-size: 3vw;
+                    padding-bottom: 2%;
+                    margin: 0%;
+                }
+    
+                #banSubHeading {
+                    font-size: 2.2vw;
+                    margin: 0%;
+                }
+            }
+
+            #banBtn {
+                color: $thirdcolor;
+                text-decoration: none;
+                border: 1px solid $thirdcolor;
+                padding: 10px;
+                margin-top: 2%;
+                font-size: 3rem;
+            }
+            
+            #banBtn:hover {
+                opacity: 75%;
+            }
+        }
+
+        .about {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-around;
+            align-items: center;
+            height: 800px;
+            
+            .abText {
+                width: 50%;
+
+                .abHeading {
+                    font-size: 2.5vw;
+                }
+                
+                .abSubHeading {
+                    font-size: 1.5vw;
+                    font-style: italic;
+                }
+
+                .abParagraph {
+                    font-size: 1vw;
+                }
+            }
+
+            .abImage {
+                display: flex;
+                flex-direction: row;
+                width: 30%;
+                border-radius: 50%;
+            }
+        }
+
+        .testimonials {
+            position: relative;
+            width: 100vw;
+            height: 20rem;
+            display: flex;
+            flex-flow: row nowrap;
+
+            justify-content: space-between;
+            background-color: $secondarycolor;
+            overflow: hidden;
+
+            .companyLogos {
+                display: flex;
+                justify-content: space-around;
+                width: inherit;
+                height: inherit;
+                position: absolute;
+                top: 25%;
+                left: 0%;
+                height: 50%;
+            }
+            
+            .primary {
+                animation: primary 60s linear infinite;
+            }
+            
+            .secondary {
+                animation: secondary 60s linear infinite;
+            }
+            
+            @keyframes primary {
+                from {
+                left: -100%;
+                }
+                to {
+                left: 0%;
+                }
+            }
+            
+            @keyframes secondary {
+                from {
+                left: 0%;
+                }
+                to {
+                left: 100%;
+                }
+            }
+        }
+
+        .skills {
+            .skHeading {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                font-size: 3rem;
+                margin: 0%;
+                padding-top: 3%;
+            }
+
+            .skLabel {
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                font-size: 2rem;
+            }
+
+            .container {
+                width: 50%;
+                margin: 0 auto;
+
+                @keyframes load{
+                    from {
+                        width: 0%
+                    }
+                }
+                
+                .bar{
+                    background-color: $primarycolor;
+                    padding: 2px;
+                    border-radius: 15px;
+                    margin-bottom: 5px;
+                    font-size: 14px;
+                    color: $primarycolor;
+                    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+                }
+
+                .bar::before{
+                    content:  attr(data-skill);
+                    background-color: $secondarycolor;
+                    display: inline-block;
+                    padding: 5px 0 5px 10px;
+                    border-radius: inherit;
+                    animation: load 2s 0s;
+                }
+                
+                .bar.learning::before{
+                    width: calc(20% - 10px);
+                }
+
+                .bar.basic::before{
+                    width: calc(40% - 10px);
+                }
+                
+                .bar.intermediate::before{
+                    width: calc(60% - 10px);
+                }
+                
+                .bar.advanced::before{
+                    width: calc(80% - 10px);
+                }
+
+                .bar.expert::before{
+                    width: calc(100% - 10px);
+                }
+            }
+
+            .skPercentage {
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-end;
+                font-size: 2rem;
+            }
+        }
+
+        .contact {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: $secondarycolor;
+            color: $primarycolor;
+            
+            
+            #contHeading {
+                font-size: 2vw;
+            }
+
+            form {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 100vw;
+                height:50vh;
+                font-size: 1.5vw;
+                line-height: 200%;
+
+                label {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-start;
+                }
+
+                #name {
+                    font-size: 1vw;
+                    height: 7%;
+                    width: 25%;
+                    border: none;
+                }
+
+                #ContactComment {
+                    font-size: 1vw;
+                    height: 40%;
+                    width: 25%;
+                    border: none;
+                    resize: none;
+                }
+                
+                #submit {
+                    margin-top: 1%;
+                    width: 10vw;
+                    height: 5vh;
+                    font-size: 0.75vw;
+                    border-radius: 5%;   
+                    background-color: $primarycolor;
+                    border: none;
+                    color: $thirdcolor;
+                }
+
+                #submit:hover {
+                    opacity: 75%;
+                    cursor: pointer ;
+                }
+
+            }
+        }   
+    }
+}
