@@ -4,14 +4,14 @@
     align-items: center;
 
     .contHeading {
-        font-size: 2rem;
+        font-size: 60px;
     }
 
     .contSubHeading {
         margin: 0%;
         margin-bottom: 5%;
         padding: 0%;
-        font-size: 1.2rem;
+        font-size: 35px;
     }
 
     .contForm {
@@ -25,25 +25,28 @@
         border-radius: 1%;
         width: 50%;
         height: 600px;
-        font-size: 2rem;
+        font-size: 35px;
 
         input {
             width: 100%;
             height: 5%;
             background-color: none;
             border: 3px solid $thirdcolor;
-            border-radius: 1%;
+            border-radius: 5%;
             margin-top: 5%;
+            font-size: 20px;
         }
 
-        #submit {
-            width: 30%;
-            font-size: 1rem;
+        .submit {
+            width: 150px;
+            height: 50px;
+            margin-bottom: 5%;
+            font-size: 20px;
             background-color: $primarycolor;
             color: $thirdcolor;
         }
 
-        #submit:hover {
+        .submit:hover {
             opacity: 75%;
             cursor: pointer;
         }
@@ -55,6 +58,7 @@
             border: 3px solid $thirdcolor;
             border-radius: 1%;
             margin-top: 5%;
+            font-size: 20px;
         }
     }
 }

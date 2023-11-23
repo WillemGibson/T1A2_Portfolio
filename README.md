@@ -9,8 +9,7 @@
 [Presentation](https://youtu.be/)
 
 ## Purpose of Website
-
-
+The purpose of this website is to display my expierience and work to IT recruiters. 
 
 ## Functionality / Features
 

@@ -23,16 +23,16 @@
       </header>
       <main>
          <section class="contSection">
-            <h1 class="contHeading">My Details</h1>
-            <h2 class="contSubHeading">(Please Don't Come Find Me)</h1>
+            <h1 id="head1" class="contHeading">My Details</h1>
+            <h2 id="head2" class="contSubHeading">(Please Don't Come Find Me)</h1>
             <form class="contForm" action="mailto:willemjackgibson@gmail.com" method="POST" enctype="text/plain" name="EmailForm">
-               <label for="email">Email:</label>
+               <label id="head2" for="email">Email:</label>
                <input type="email" id="email" name="email">
-               <label for="subject">Subject:</label>
+               <label id="head2" for="subject">Subject:</label>
                <input type="text" id="subject" name="subject">
-               <label for="ContactComment">Message:</label>
+               <label id="head2" for="ContactComment">Message:</label>
                <textarea id="ContactComment"></textarea>
-               <input id="submit" type="submit" value="Send">
+               <input id="btn1" class="submit" type="submit" value="Send">
             </form>
          </section>
       </main>

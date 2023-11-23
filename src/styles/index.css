@@ -99,7 +99,7 @@ body main .banner {
   display: flex;
   flex-direction: row;
 }
-body main .banner #banPhoto {
+body main .banner .banPhoto {
   width: 100%;
   border-bottom-right-radius: 75%;
   border-bottom-left-radius: 5%;
@@ -114,16 +114,19 @@ body main .banner .banText {
   align-items: flex-end;
   padding-right: 5%;
 }
-body main .banner .banText #banHeading {
+body main .banner .banText .abText {
   font-size: 60px;
   padding-bottom: 2%;
   margin: 0%;
 }
-body main .banner .banText #banSubHeading {
+body main .banner .banText .banSubHeading {
   font-size: 35px;
   margin: 0%;
 }
-body main .banner #banBtn {
+body main .banner .banBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: #9c9c9C;
   text-decoration: none;
   border: 1px solid #9c9c9C;
@@ -131,7 +134,7 @@ body main .banner #banBtn {
   margin-top: 2%;
   font-size: 20px;
 }
-body main .banner #banBtn:hover {
+body main .banner .banBtn:hover {
   opacity: 75%;
 }
 body main .about {
@@ -214,7 +217,7 @@ body main .skills .skLabel {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  font-size: 35px;
+  font-size: 30px;
 }
 body main .skills .container {
   width: 50%;
@@ -261,7 +264,7 @@ body main .skills .skPercentage {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  font-size: 60px;
+  font-size: 35px;
 }
 body main .contact {
   display: flex;
@@ -302,7 +305,7 @@ body main .contact form #ContactComment {
   border: none;
   resize: none;
 }
-body main .contact form #submit {
+body main .contact form .submit {
   margin-top: 1%;
   width: 10vw;
   height: 5vh;
@@ -313,7 +316,7 @@ body main .contact form #submit {
   color: #9c9c9C;
   margin-bottom: 1%;
 }
-body main .contact form #submit:hover {
+body main .contact form .submit:hover {
   opacity: 75%;
   cursor: pointer;
 }
@@ -329,6 +332,35 @@ body main .contact form #submit:hover {
 .abSection #sec1, .abSection #sec2, .abSection #sec3 {
   height: 500px;
   width: 75%;
+  padding-bottom: 15%;
+}
+.abSection #abBtn {
+  color: #9c9c9C;
+  text-decoration: none;
+  border: 1px solid #9c9c9C;
+  padding: 10px;
+  margin-top: 2%;
+  font-size: 20px;
+}
+.abSection #abBtn:hover {
+  opacity: 75%;
+}
+.abSection .socialLinks {
+  display: flex;
+  flex-direction: row;
+  padding-top: 5%;
+}
+.abSection .socialLinks a {
+  text-decoration: none;
+  color: #d9d9d9;
+}
+.abSection .socialLinks a .fa-linkedin-square {
+  margin: 0%;
+  padding-left: 30px;
+}
+.abSection .socialLinks a .fa-github-square {
+  margin: 0%;
+  padding-right: 30px;
 }
 
 main .projContainer {
@@ -378,6 +410,11 @@ main .projContainer .portfolio .projects .proj .projLink:hover {
   opacity: 75%;
 }
 
+main .blogHeading {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 main .blogPosts {
   display: flex;
   flex-direction: column;
@@ -401,20 +438,41 @@ main .blogPosts .blogPost .blogPostImage {
   width: 80%;
 }
 main .blogPosts .blogPost .blogPostHeading {
-  font-size: 2rem;
+  font-size: 35px;
   padding-top: 5%;
   padding-left: 5%;
   margin: 0%;
 }
 main .blogPosts .blogPost .blogPostDate {
   align-self: flex-end;
-  font-size: 1.2rem;
+  font-size: 20px;
   padding-right: 7%;
   margin: 0%;
 }
 main .blogPosts .blogPost .blogPostContent {
   padding-left: 5%;
   padding-right: 5%;
+}
+main .blogPosts .blogPost .learnMore {
+  padding-left: 5%;
+  text-decoration: none;
+  color: #9c9c9C;
+}
+main .blogPosts .blogPost .learnMore:hover {
+  opacity: 75%;
+}
+main .blogPosts .blogPost .blogBack {
+  margin-left: 2%;
+  margin-bottom: 2%;
+  padding: 1%;
+  background-color: #fff;
+  color: #9c9c9C;
+  border: 3px solid #9c9c9C;
+  border-radius: 3px;
+}
+main .blogPosts .blogPost .blogBack:hover {
+  cursor: pointer;
+  opacity: 75%;
 }
 
 .contSection {
@@ -423,13 +481,13 @@ main .blogPosts .blogPost .blogPostContent {
   align-items: center;
 }
 .contSection .contHeading {
-  font-size: 2rem;
+  font-size: 60px;
 }
 .contSection .contSubHeading {
   margin: 0%;
   margin-bottom: 5%;
   padding: 0%;
-  font-size: 1.2rem;
+  font-size: 35px;
 }
 .contSection .contForm {
   display: flex;
@@ -442,23 +500,26 @@ main .blogPosts .blogPost .blogPostContent {
   border-radius: 1%;
   width: 50%;
   height: 600px;
-  font-size: 2rem;
+  font-size: 35px;
 }
 .contSection .contForm input {
   width: 100%;
   height: 5%;
   background-color: none;
   border: 3px solid #9c9c9C;
-  border-radius: 1%;
+  border-radius: 5%;
   margin-top: 5%;
+  font-size: 20px;
 }
-.contSection .contForm #submit {
-  width: 30%;
-  font-size: 1rem;
+.contSection .contForm .submit {
+  width: 150px;
+  height: 50px;
+  margin-bottom: 5%;
+  font-size: 20px;
   background-color: #fff;
   color: #9c9c9C;
 }
-.contSection .contForm #submit:hover {
+.contSection .contForm .submit:hover {
   opacity: 75%;
   cursor: pointer;
 }
@@ -469,6 +530,7 @@ main .blogPosts .blogPost .blogPostContent {
   border: 3px solid #9c9c9C;
   border-radius: 1%;
   margin-top: 5%;
+  font-size: 20px;
 }
 
 @media screen and (max-width: 768px) {
@@ -483,6 +545,23 @@ main .blogPosts .blogPost .blogPostContent {
   }
   body header nav ul li a {
     font-size: 16px;
+  }
+  body main #head1 {
+    font-size: 35px;
+  }
+  body main #head2 {
+    font-size: 25px;
+  }
+  body main #para1 {
+    font-size: 15px;
+  }
+  body main #btn1 {
+    font-size: 15px;
+    width: 125px;
+    height: 50px;
+  }
+  body main #img1 {
+    width: 50%;
   }
   body footer .navbar {
     padding-left: 0%;
@@ -513,11 +592,22 @@ main .blogPosts .blogPost .blogPostContent {
   body header nav ul li a {
     font-size: 11px;
   }
-  body main h1 {
-    font-size: 1px;
+  body main #head1 {
+    font-size: 30px;
   }
-  body main h2 {
-    font-size: 1px;
+  body main #head2 {
+    font-size: 20px;
+  }
+  body main #para1 {
+    font-size: 10px;
+  }
+  body main #btn1 {
+    font-size: 10px;
+    width: 75px;
+    height: 35px;
+  }
+  body main #img1 {
+    width: 50%;
   }
   body footer .navbar {
     padding-left: 0%;

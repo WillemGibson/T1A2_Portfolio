@@ -11,6 +11,7 @@
 @import "./pages/_blog.scss";
 @import "./pages/_contact.scss";
 
+// Media Breakpooints
 @media screen and (max-width: $tablet) {
     body {
         background-color: red;
@@ -37,7 +38,27 @@
         }
 
         main {
+            #head1 {
+                font-size: 35px;
+            }
 
+            #head2 {
+                font-size: 25px;
+            }
+
+            #para1 {
+                font-size: 15px;
+            }
+
+            #btn1 {
+                font-size: 15px;
+                width: 125px;
+                height: 50px;
+            }
+
+            #img1 {
+                width: 50%;
+            }
         }
 
         footer {
@@ -93,14 +114,30 @@
         }
 
         main {
-            h1 {
-                font-size: 1px;
+            #head1 {
+                font-size: 30px;
             }
 
-            h2 {
-                font-size: 1px;
+            #head2 {
+                font-size: 20px;
+            }
+
+            #para1 {
+                font-size: 10px;
+            }
+
+            #btn1 {
+                font-size: 10px;
+                width: 75px;
+                height: 35px;
+            }
+
+            #img1 {
+                width: 50%;
             }
         }
+
+        
 
         footer {
             .navbar {

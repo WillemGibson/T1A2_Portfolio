@@ -9,5 +9,40 @@
     #sec1, #sec2, #sec3 {
         height: 500px;
         width: 75%;
+        padding-bottom: 15%;
     }
+
+    #abBtn {
+        color: $thirdcolor;
+        text-decoration: none;
+        border: 1px solid $thirdcolor;
+        padding: 10px;
+        margin-top: 2%;
+        font-size: 20px;
+    }
+
+    #abBtn:hover {
+        opacity: 75%;
+    }
+
+    .socialLinks {
+        display: flex;
+        flex-direction: row;
+        padding-top: 5%;
+
+        a { 
+            text-decoration: none;
+            color: $secondarycolor;
+
+            .fa-linkedin-square {
+                margin: 0%;
+                padding-left: 30px;
+            }
+
+            .fa-github-square {
+                margin: 0%;
+                padding-right: 30px;
+            }
+        }
+    } 
 }

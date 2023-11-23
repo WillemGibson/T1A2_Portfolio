@@ -9,7 +9,7 @@ body {
             display: flex;
             flex-direction: row;
 
-            #banPhoto {
+            .banPhoto {
                 width: 100%;
                 border-bottom-right-radius: 75%; 
                 border-bottom-left-radius: 5%;
@@ -25,19 +25,22 @@ body {
                 align-items: flex-end;
                 padding-right: 5%;
                 
-                #banHeading {
+                .abText {
                     font-size: 60px;
                     padding-bottom: 2%;
                     margin: 0%;
                 }
     
-                #banSubHeading {
+                .banSubHeading {
                     font-size: 35px;
                     margin: 0%;
                 }
             }
 
-            #banBtn {
+            .banBtn {
+                display: flex;
+                justify-content: center;
+                align-items: center;
                 color: $thirdcolor;
                 text-decoration: none;
                 border: 1px solid $thirdcolor;
@@ -46,7 +49,7 @@ body {
                 font-size: 20px;
             }
             
-            #banBtn:hover {
+            .banBtn:hover {
                 opacity: 75%;
             }
         }
@@ -89,7 +92,7 @@ body {
             height: 20rem;
             display: flex;
             flex-flow: row nowrap;
-
+            
             justify-content: space-between;
             background-color: $secondarycolor;
             overflow: hidden;
@@ -103,6 +106,7 @@ body {
                 top: 25%;
                 left: 0%;
                 height: 50%;
+                
             }
             
             .primary {
@@ -146,7 +150,7 @@ body {
                 display: flex;
                 flex-direction: row;
                 justify-content: flex-start;
-                font-size: 35px;
+                font-size: 30px;
             }
 
             .container {
@@ -203,7 +207,7 @@ body {
                 display: flex;
                 flex-direction: row;
                 justify-content: flex-end;
-                font-size: 60px;
+                font-size: 35px;
             }
         }
 
@@ -251,7 +255,7 @@ body {
                     resize: none;
                 }
                 
-                #submit {
+                .submit {
                     margin-top: 1%;
                     width: 10vw;
                     height: 5vh;
@@ -263,7 +267,7 @@ body {
                     margin-bottom: 1%;
                 }
 
-                #submit:hover {
+                .submit:hover {
                     opacity: 75%;
                     cursor: pointer ;
                 }

@@ -1,9 +1,16 @@
 main {
+    .blogHeading {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
     .blogPosts {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
+
 
         .blogPost {
             width: 50%;
@@ -23,7 +30,7 @@ main {
             }
             
             .blogPostHeading {
-                font-size: 2rem;
+                font-size: 35px;
                 padding-top: 5%;
                 padding-left: 5%;
                 margin: 0%;
@@ -31,7 +38,7 @@ main {
 
             .blogPostDate {
                 align-self: flex-end;
-                font-size: 1.2rem;
+                font-size: 20px;
                 padding-right: 7%;
                 margin: 0%;
             }
@@ -39,6 +46,30 @@ main {
             .blogPostContent {
                 padding-left: 5%;
                 padding-right: 5%;
+            }
+
+            .learnMore {
+                padding-left: 5%;
+                text-decoration: none;
+                color: $thirdcolor;
+            }
+
+            .learnMore:hover {
+                opacity: 75%;
+            }
+
+            .blogBack {
+                margin-left: 2%;
+                margin-bottom: 2%;
+                padding: 1%;
+                background-color: #fff;
+                color: $thirdcolor;
+                border: 3px solid $thirdcolor;
+                border-radius: 3px;
+            }
+            .blogBack:hover {
+                cursor: pointer;
+                opacity: 75%;
             }
         }
     }
