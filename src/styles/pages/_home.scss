@@ -26,13 +26,13 @@ body {
                 padding-right: 5%;
                 
                 #banHeading {
-                    font-size: 3vw;
+                    font-size: 60px;
                     padding-bottom: 2%;
                     margin: 0%;
                 }
     
                 #banSubHeading {
-                    font-size: 2.2vw;
+                    font-size: 35px;
                     margin: 0%;
                 }
             }
@@ -43,7 +43,7 @@ body {
                 border: 1px solid $thirdcolor;
                 padding: 10px;
                 margin-top: 2%;
-                font-size: 3rem;
+                font-size: 20px;
             }
             
             #banBtn:hover {
@@ -62,16 +62,16 @@ body {
                 width: 50%;
 
                 .abHeading {
-                    font-size: 2.5vw;
+                    font-size: 60px;
                 }
                 
                 .abSubHeading {
-                    font-size: 1.5vw;
+                    font-size: 35px;
                     font-style: italic;
                 }
 
                 .abParagraph {
-                    font-size: 1vw;
+                    font-size: 20px;
                 }
             }
 
@@ -137,7 +137,7 @@ body {
                 display: flex;
                 flex-direction: row;
                 justify-content: center;
-                font-size: 3rem;
+                font-size: 60px;
                 margin: 0%;
                 padding-top: 3%;
             }
@@ -146,7 +146,7 @@ body {
                 display: flex;
                 flex-direction: row;
                 justify-content: flex-start;
-                font-size: 2rem;
+                font-size: 35px;
             }
 
             .container {
@@ -203,7 +203,7 @@ body {
                 display: flex;
                 flex-direction: row;
                 justify-content: flex-end;
-                font-size: 2rem;
+                font-size: 60px;
             }
         }
 
@@ -217,7 +217,7 @@ body {
             
             
             #contHeading {
-                font-size: 2vw;
+                font-size: 60px;
             }
 
             form {
@@ -226,8 +226,8 @@ body {
                 justify-content: center;
                 align-items: center;
                 width: 100vw;
-                height:50vh;
-                font-size: 1.5vw;
+                height: 50vh;
+                font-size: 48px;
                 line-height: 200%;
 
                 label {
@@ -237,14 +237,14 @@ body {
                 }
 
                 #name {
-                    font-size: 1vw;
+                    font-size: 20px;
                     height: 7%;
                     width: 25%;
                     border: none;
                 }
 
                 #ContactComment {
-                    font-size: 1vw;
+                    font-size: 20px;
                     height: 40%;
                     width: 25%;
                     border: none;
@@ -255,11 +255,12 @@ body {
                     margin-top: 1%;
                     width: 10vw;
                     height: 5vh;
-                    font-size: 0.75vw;
+                    font-size: 20px;
                     border-radius: 5%;   
                     background-color: $primarycolor;
                     border: none;
                     color: $thirdcolor;
+                    margin-bottom: 1%;
                 }
 
                 #submit:hover {

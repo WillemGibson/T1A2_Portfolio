@@ -13,7 +13,7 @@ header .logo {
   padding-left: 5%;
 }
 header .logo #title a {
-  font-size: 2vw;
+  font-size: 35px;
   color: #9c9c9C;
   text-decoration: none;
 }
@@ -31,7 +31,7 @@ header nav ul li {
 header nav ul li a {
   text-decoration: none;
   color: #9c9c9C;
-  font-size: 1.3vw;
+  font-size: 20px;
 }
 header nav ul li a:hover {
   color: #d9d9d9;
@@ -55,6 +55,7 @@ footer .navbar ul {
 footer .navbar ul li {
   list-style: none;
   line-height: 200%;
+  font-size: 20px;
 }
 footer .navbar ul li a {
   text-decoration: none;
@@ -64,7 +65,7 @@ footer .navbar ul li a:hover {
   opacity: 75%;
 }
 footer #footLogo {
-  font-size: 3vw;
+  font-size: 50px;
 }
 footer .navbar2 {
   padding-right: 5%;
@@ -78,6 +79,7 @@ footer .navbar2 ul {
 footer .navbar2 ul li {
   list-style: none;
   line-height: 200%;
+  font-size: 24px;
 }
 footer .navbar2 ul li a {
   text-decoration: none;
@@ -113,12 +115,12 @@ body main .banner .banText {
   padding-right: 5%;
 }
 body main .banner .banText #banHeading {
-  font-size: 3vw;
+  font-size: 60px;
   padding-bottom: 2%;
   margin: 0%;
 }
 body main .banner .banText #banSubHeading {
-  font-size: 2.2vw;
+  font-size: 35px;
   margin: 0%;
 }
 body main .banner #banBtn {
@@ -127,7 +129,7 @@ body main .banner #banBtn {
   border: 1px solid #9c9c9C;
   padding: 10px;
   margin-top: 2%;
-  font-size: 3rem;
+  font-size: 20px;
 }
 body main .banner #banBtn:hover {
   opacity: 75%;
@@ -143,14 +145,14 @@ body main .about .abText {
   width: 50%;
 }
 body main .about .abText .abHeading {
-  font-size: 2.5vw;
+  font-size: 60px;
 }
 body main .about .abText .abSubHeading {
-  font-size: 1.5vw;
+  font-size: 35px;
   font-style: italic;
 }
 body main .about .abText .abParagraph {
-  font-size: 1vw;
+  font-size: 20px;
 }
 body main .about .abImage {
   display: flex;
@@ -204,7 +206,7 @@ body main .skills .skHeading {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  font-size: 3rem;
+  font-size: 60px;
   margin: 0%;
   padding-top: 3%;
 }
@@ -212,7 +214,7 @@ body main .skills .skLabel {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  font-size: 2rem;
+  font-size: 35px;
 }
 body main .skills .container {
   width: 50%;
@@ -259,7 +261,7 @@ body main .skills .skPercentage {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  font-size: 2rem;
+  font-size: 60px;
 }
 body main .contact {
   display: flex;
@@ -270,7 +272,7 @@ body main .contact {
   color: #fff;
 }
 body main .contact #contHeading {
-  font-size: 2vw;
+  font-size: 60px;
 }
 body main .contact form {
   display: flex;
@@ -279,7 +281,7 @@ body main .contact form {
   align-items: center;
   width: 100vw;
   height: 50vh;
-  font-size: 1.5vw;
+  font-size: 48px;
   line-height: 200%;
 }
 body main .contact form label {
@@ -288,13 +290,13 @@ body main .contact form label {
   justify-content: flex-start;
 }
 body main .contact form #name {
-  font-size: 1vw;
+  font-size: 20px;
   height: 7%;
   width: 25%;
   border: none;
 }
 body main .contact form #ContactComment {
-  font-size: 1vw;
+  font-size: 20px;
   height: 40%;
   width: 25%;
   border: none;
@@ -304,11 +306,12 @@ body main .contact form #submit {
   margin-top: 1%;
   width: 10vw;
   height: 5vh;
-  font-size: 0.75vw;
+  font-size: 20px;
   border-radius: 5%;
   background-color: #fff;
   border: none;
   color: #9c9c9C;
+  margin-bottom: 1%;
 }
 body main .contact form #submit:hover {
   opacity: 75%;
@@ -466,4 +469,69 @@ main .blogPosts .blogPost .blogPostContent {
   border: 3px solid #9c9c9C;
   border-radius: 1%;
   margin-top: 5%;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    background-color: red;
+  }
+  body header .logo #title a {
+    font-size: 20px;
+  }
+  body header nav ul li {
+    padding-right: 30px;
+  }
+  body header nav ul li a {
+    font-size: 16px;
+  }
+  body footer .navbar {
+    padding-left: 0%;
+  }
+  body footer .navbar ul li {
+    font-size: 16px;
+  }
+  body footer #footLogo {
+    font-size: 30px;
+  }
+  body footer .navbar2 {
+    padding-right: 0%;
+  }
+  body footer .navbar2 ul li {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 480px) {
+  body {
+    background-color: aqua;
+  }
+  body header .logo #title a {
+    font-size: 18px;
+  }
+  body header nav ul li {
+    padding-right: 20px;
+  }
+  body header nav ul li a {
+    font-size: 11px;
+  }
+  body main h1 {
+    font-size: 1px;
+  }
+  body main h2 {
+    font-size: 1px;
+  }
+  body footer .navbar {
+    padding-left: 0%;
+  }
+  body footer .navbar ul li {
+    font-size: 11px;
+  }
+  body footer #footLogo {
+    font-size: 25px;
+  }
+  body footer .navbar2 {
+    padding-right: 0%;
+  }
+  body footer .navbar2 ul li {
+    font-size: 11px;
+  }
 }/*# sourceMappingURL=index.css.map */
