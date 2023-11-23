@@ -14,8 +14,6 @@
 // Media Breakpooints
 @media screen and (max-width: $tablet) {
     body {
-        background-color: red;
-
         header {
             .logo {
                 #title {
@@ -89,8 +87,6 @@
 
 @media screen and (max-width: $mobile) {
     body {
-        background-color: aqua;
-
         header {
             .logo {
                 #title {

@@ -4,16 +4,89 @@
 
 [Published Portfolio Website](https://)
 
-[Github Repository](https://github.com/)
+[Github Repository](https://github.com/WillemGibson/T1A2_Portfolio)
 
 [Presentation](https://youtu.be/)
 
 ## Purpose of Website
-The purpose of this website is to display my expierience and work to IT recruiters. 
+The objective is not only to showcase my skills and capabilities but also to establish connections that could potentially pave the way for a meaningful career opportunity. By tailoring the content to resonate with the specific interests and needs of IT recruiters, I aim to position myself as a standout candidate in the competitive landscape of the technology sector. Thus this website will display these key details:
+
+- My professional contact details
+- A page detailing my skills, education, and experience
+- A blog to get to know me as a person, learn what my hobbies are and my opinions about tech industry
 
 ## Functionality / Features
+### Homepage
+This page will act, just like most homepages, as a base to navigate through th entire webpage and will allow the user to progress throgh the pages.
 
+Some features include:
+- Flexbox Layout
+- Quick information
+- CSS animations
+- Header/Footer
+- Minimal Design
+### About Me
+This page will act as a more in-depth look at myself, my hobbies and most improtantly am expierience in the tech industry.
 
+Some featues include:
+- Flexbox layout
+- Minimal Design
+- Header/Footer
+- Images & text
+- Links to LinkedIn & Github
+
+### Work
+This page will act as a portfolio for my graphic design and developer work to show potential employers my skills through completed projects.
+
+Some features include:
+- CSS grid layout
+- Minimal Design
+- Header/Footer
+- Project previews
+- Links to Behance Project (Graphic Design)
+- Links to Git repos (Developer)
+
+### Blog
+This page will act as a page to display previews of all the blog posts I've created and allow you view more on the blog Sample Page.
+
+Some features include:
+- Flexbox layout
+- Minimal Design
+- Header/Footer
+- Images & text
+- Previews of blog posts
+- Learn more buttons that guide user to indivual blog pages
+
+### Blog Sample
+This page will act as a page to display all the blog posts in full detail.
+
+Some features include:
+- Flexbox layout
+- Minimal Design
+- Header/Footer
+- Images & text
+- Back buttons that sent you to previous page
+
+### Contact Me
+This page acts as a hub for all my professional contact details.
+
+Some features include:
+- Flexbox layout
+- Minimal Design
+- Header/Footer
+- Images & text
+- Html form
+- Submit button that opens email client and copies over input data
+
+## Target Audience
+The main target audience for this project is IT recruiters and professionals to see and help me break into the industry with a career oppotunity.
+
+## Tech Stack
+
+* Wireframes and Sitemap: [draw.io](https://app.diagrams.net/)
+* Website: Semantic HTML and CSS
+* Deployment: [Netlify](https://www.netlify.com/)
+* Slide deck: [Google Slides](https://docs.google.com/presentation/create/)
 
 ## Sitemap
 
@@ -35,60 +108,56 @@ Sample Blog Post
 
 ## Screenshots
 
-**Please note that the background image will stay and cover the whole viewport with scrolling**:
-
 ### Home Page
 
 Mobile:
-![Home Page Phone](docs/indexphonefull.png "Home Page Phone")
+![Home Page Phone](docs/Screenshots/SS_Home-Mobile.png "Home Page Phone")
 Tablet:
-![Home Page Tablet](docs/indextabletfull.png "Home Page Tablet")
+![Home Page Tablet](docs/Screenshots/SS_Home-Tablet.png "Home Page Tablet")
 Desktop:
-![Home Page Desktop](docs/indexdesktopfull.png "Home Page Desktop")
+![Home Page Desktop](docs/Screenshots/SS_Home-Desktop.png "Home Page Desktop")
 
 ### About Me Page
 
 Mobile:
-![Bio Phone](docs/biophonefull.png "Bio Phone")
+![About Me Phone](docs/Screenshots/SS_AboutMe-Mobile.png "About Me Phone")
 Tablet:
-![Bio Tablet](docs/biotabletfull.png "Bio Tablet")
+![About Me Tablet](docs/Screenshots/SS_AboutMe-Tablet.png "About Me Tablet")
 Desktop:
-![Bio Desktop](docs/biodesktopfull.png "Bio Desktop")
+![Bio Desktop](docs/Screenshots/SS_AboutMe-Desktop.png "About Me Desktop")
 
 ### Work Page
 
 Mobile:
-![Experiences Phone](docs/expphonefull.png "Experiences Phone")
+![Work Phone](docs/Screenshots/SS_Work-Mobile.png "Work Phone")
 Tablet:
-![Experiences Tablet](docs/exptabletfull.png "Experiences Tablet")
+![Work Tablet](docs/Screenshots/SS_Work-Tablet.png "Work Tablet")
 Desktop:
-![Experiences Desktop](docs/expdesktopfull.png "Experiences Desktop")
+![Work Desktop](docs/Screenshots/SS_Work-Desktop.png "Work Desktop")
 
 ### Blog Page
 
 Mobile:
-![Blog Phone](docs/blogphonefull.png "Blog Phone")
+![Blog Phone](docs/Screenshots/SS_Blog-Mobile.png "Blog Phone")
 Tablet:
-![Blog Tablet](docs/blogtabletfull.png "Blog Tablet")
+![Blog Tablet](docs/Screenshots/SS_Blog-Tablet.png "Blog Tablet")
 Desktop:
-![Blog Desktop](docs/blogdesktopfull.png "Blog Desktop")
+![Blog Desktop](docs/Screenshots/SS_Blog-Desktop.png "Blog Desktop")
 
 ### Sample Blog Post
 
 Mobile:
-![Blog2 Phone](docs/blog2phonefull.png "Blog2 Phone")
+![Blog Sample Phone](docs/Screenshots/SS_BlogSample-Mobile.png "Blog Sample Phone")
 Tablet:
-![Blog2 Tablet](docs/blog2tabletfull.png "Blog2 Tablet")
+![Blog Sample Tablet](docs/Screenshots/SS_BlogSample-Tablet.png "Blog Sample Tablet")
 Desktop:
-![Blog2 Desktop](docs/blog2desktopfull.png "Blog2 Desktop")
+![Blog Sample Desktop](docs/Screenshots/SS_BlogSample-Desktop.png "Blog Sample Desktop")
 
-## Target Audience
+### Contact Me Page
 
-Employers and recruiters with sound IT knowledge, looking to hire a professional developer with a positive attitude and good technical skills. They are familiar with programming languages and software development.
-
-## Tech Stack
-
-* Wireframes and Sitemap: [draw.io](https://app.diagrams.net/)
-* Website: Semantic HTML and CSS
-* Deployment: [Netlify](https://www.netlify.com/)
-* Slide deck: [Google Slides](https://docs.google.com/presentation/create/)
+Mobile:
+![Contact Me Phone](docs/Screenshots/SS_ContactMe-Mobile.png "Contact Me Phone")
+Tablet:
+![Contact Me Tablet](docs/Screenshots/SS_ContactMe-Tablet.png "Contact Me Tablet")
+Desktop:
+![Contact Me Desktop](docs/Screenshots/SS_ContactMe-Desktop.png "Contact Me Desktop")
