@@ -1,12 +1,15 @@
+// Styling contact page
 .contSection {
     display: flex;
     flex-direction: column;
     align-items: center;
 
+    // Styling contact page heading
     .contHeading {
         font-size: 60px;
     }
 
+    // Styling contact sub heading
     .contSubHeading {
         margin: 0%;
         margin-bottom: 5%;
@@ -14,6 +17,7 @@
         font-size: 35px;
     }
 
+    // styling contact form
     .contForm {
         display: flex;
         flex-direction: column;

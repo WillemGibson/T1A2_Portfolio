@@ -1,10 +1,13 @@
+// Styling blog page
 main {
+    // Styling main heading
     .blogHeading {
         display: flex;
         flex-direction: row;
         justify-content: center;
     }
     
+    // Styling blog posts
     .blogPosts {
         display: flex;
         flex-direction: column;

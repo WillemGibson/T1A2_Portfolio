@@ -12,6 +12,7 @@
 @import "./pages/_contact.scss";
 
 // Media Breakpooints
+// Tablet breakpoint
 @media screen and (max-width: $tablet) {
     body {
         header {
@@ -85,6 +86,7 @@
     }
 }
 
+// Mobile breakpoint
 @media screen and (max-width: $mobile) {
     body {
         header {

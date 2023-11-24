@@ -1,3 +1,4 @@
+// Styling about me page
 .abSection {
     display: flex;
     flex-direction: column;
@@ -6,12 +7,14 @@
     padding-top: 5%;
     padding-bottom: 5%;
 
+    // Styling the 3 sections
     #sec1, #sec2, #sec3 {
         height: 500px;
         width: 75%;
         padding-bottom: 15%;
     }
 
+    // Styling the downlaod button
     #abBtn {
         color: $thirdcolor;
         text-decoration: none;
@@ -25,6 +28,7 @@
         opacity: 75%;
     }
 
+    // Styling social links
     .socialLinks {
         display: flex;
         flex-direction: row;

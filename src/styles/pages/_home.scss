@@ -1,3 +1,4 @@
+// Styling home page
 body {
     font-family: 'Lato', sans-serif;
     color: $thirdcolor;
@@ -5,6 +6,7 @@ body {
     margin: 0%;
     
     main {
+        // Styling home banner
         .banner {
             display: flex;
             flex-direction: row;
@@ -37,6 +39,7 @@ body {
                 }
             }
 
+            // Styling home download buttons
             .banBtn {
                 display: flex;
                 justify-content: center;
@@ -54,6 +57,7 @@ body {
             }
         }
 
+        // Styling about section of home page
         .about {
             display: flex;
             flex-flow: row wrap;
@@ -86,6 +90,7 @@ body {
             }
         }
 
+        // Styling testimonals section of home page
         .testimonials {
             position: relative;
             width: 100vw;
@@ -136,6 +141,7 @@ body {
             }
         }
 
+        // Styling skill section of home page
         .skills {
             .skHeading {
                 display: flex;
@@ -211,6 +217,7 @@ body {
             }
         }
 
+        // Styling contact section of home page
         .contact {
             display: flex;
             flex-direction: column;

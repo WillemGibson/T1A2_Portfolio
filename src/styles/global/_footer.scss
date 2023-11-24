@@ -1,9 +1,11 @@
+// Footer styling
 footer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
 
+    // Styling navbar 1
     .navbar {
         padding-left: 5%;
         ul{
@@ -28,10 +30,12 @@ footer {
         }    
     }
 
+    // Styling footer logo
     #footLogo {
         font-size: 50px;
     }
 
+    // Styling navbar 2
     .navbar2 {
         padding-right: 5%;
         ul{

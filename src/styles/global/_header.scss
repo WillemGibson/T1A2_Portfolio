@@ -1,3 +1,4 @@
+// Styling header
 header {
     display: flex;
     flex-direction: row;
@@ -7,6 +8,7 @@ header {
     padding: 0%;
     box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.05);
 
+    // Styling logo
     .logo {
         display: flex;
         flex-direction: column;
@@ -27,6 +29,7 @@ header {
         
     }
 
+    // Styling main navbar
     nav {
         ul {
             display: flex;
