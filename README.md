@@ -6,7 +6,7 @@
 
 [Github Repository](https://github.com/WillemGibson/T1A2_Portfolio)
 
-[Presentation](https://www.loom.com/share/c7c37468c8724588bf12f60bbf934ad3)
+[Presentation](https://www.loom.com/share/42abadca6df448dd82002d100abcc8f8?sid=6dde876e-4872-4630-8f8b-54852c65d2ca)
 
 ## Purpose of Website
 The objective is not only to showcase my skills and capabilities but also to establish connections that could potentially pave the way for a meaningful career opportunity. By tailoring the content to resonate with the specific interests and needs of IT recruiters, I aim to position myself as a standout candidate in the competitive landscape of the technology sector. Thus this website will display these key details:
